@@ -1,0 +1,227 @@
+html {
+    --main-color :  #394650;
+  --second-color: red; 
+  --third-color: #ecd0a0;
+      font-family: Helvetica;
+}
+
+button{
+  background-color: var(--main-color);
+  border: none; 
+}
+button:hover{
+  color: var(--main-color); 
+  background-color: var(--second-color);
+}
+
+/*-------------Header-------------*/
+
+.suki-icon svg {
+  color: var(--second-color);
+}
+
+header input{
+  color: red; 
+  background-color: red
+}
+
+#masthead {
+  background-image: url('https://confident-mccarthy.185-63-172-235.plesk.page/wp-content/uploads/2023/10/Design-sans-titre1.png');
+      background-repeat: no-repeat; 
+      background-position: center; 
+    background-size: cover; 
+}
+
+header .suki-menu-item-link span {
+      color: var(--second-color); 
+}
+.suki-header-social li a span {
+  color: var(--second-color);
+}
+
+#colophon{
+      background-color: var(--main-color);
+
+}
+
+#colophon h1 {
+      color: var(--second-color);
+}
+
+.suki-menu-item-link span {
+  font-weight: 700
+}
+
+.suki-hero-inner{
+  display: none
+}
+.suki-menu-item-title{
+  padding: 3px;
+  border-radius: 10px;
+  border: solid .5mm  var(--second-color);
+  transition: .2s
+}
+
+.suki-menu-item-title:hover{
+  background-color: var(--second-color);
+  color: var(--main-color);
+  width: 100%
+}
+
+.suki-header-section .menu .menu-item.focus > .sub-menu, .suki-header-section .menu.suki-hover-menu .menu-item:hover > .sub-menu{
+      background-color: var(--main-color);
+}
+
+
+
+/*-------------Fin header----------*/
+
+
+
+
+/*-------------Section main ----------*/
+
+
+.main {
+  max-width: 1200px;
+margin: auto;
+}
+.contain {
+  margin-bottom: 100px;
+}
+.main h2 {
+  text-align: center; 
+  font-size: 50px; 
+}
+
+.main-contain {
+  display: flex;
+  gap: 10px; 
+  
+}
+
+.contain-actus{
+  display: flex; 
+  flex-direction: column; 
+  
+}
+.contain-actus-titre{
+  position: relative;
+top: 293px;
+}
+.contain-articles-titre{
+  position: relative;
+top: 140px;
+}
+.contain-articles-main-titre{
+  width: 100%; 
+  position: relative; 
+  top: 386px; 
+   
+}
+
+.contain-actus-main{
+  background-image: url("https://confident-mccarthy.185-63-172-235.plesk.page/wp-content/uploads/2023/10/Design-sans-titre1.png"); 
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  width: 200px; 
+  height: 400px; 
+}
+
+.main p {
+  background: linear-gradient(transparent,               black); 
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px 15px;
+  height: auto; 
+}
+
+.contain-actus-bouton button{
+  width: 200px; 
+  border-radius: 0; 
+}
+.contain-articles{
+  display: flex; 
+}
+
+.contain-articles .contain-articles-main{
+  display: flex;
+  background-image: url("https://confident-mccarthy.185-63-172-235.plesk.page/wp-content/uploads/2023/10/Design-sans-titre1.png"); 
+  width: 600px;
+  height: 438px; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  
+}
+.contain-articles-right {
+  display: flex;
+  flex-direction: column
+  
+}
+
+.contain-articles-second{
+  background-image: url("https://confident-mccarthy.185-63-172-235.plesk.page/wp-content/uploads/2023/10/Design-sans-titre1.png"); 
+  width: 399px; 
+  height: 219px; 
+  
+}
+.contain-articles-third{
+  background-image: url("https://confident-mccarthy.185-63-172-235.plesk.page/wp-content/uploads/2023/10/Design-sans-titre1.png"); 
+  width: 399px; 
+  height: 219px; 
+  
+}
+
+
+
+/*-------------Fin Section main ----------*/
+
+/*-------------Footer----------*/
+
+footer h1{
+  font-weight: 700;
+}
+
+.menu-pied-de-page ul {
+  text-decoration: none; 
+  list-style: none; 
+  padding-left: 0;
+}
+
+.menu-pied-de-page ul li a {
+  color: var(--second-color);
+  font-weight: 600;
+  border-radius: 5px; 
+      
+}
+.menu-pied-de-page ul li a:hover{
+  background-color: var(--second-color);
+  color: var(--main-color);
+  padding: 5px;
+}
+  
+.suki-footer-copyright-content{
+  color: var(--second-color);
+  font-weight: 600;
+}
+.suki-footer-copyright-content a{
+  color: var(--second-color);
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 500px){
+  
+}
